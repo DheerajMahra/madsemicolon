@@ -30,14 +30,14 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .marquee-container.horizontal::after {
-        background: #20272b;
-        background: linear-gradient(270deg, #20272b 0%, #20272b 10%, rgba(255, 255, 255, 0) 100%);
+        background: #20272b !important;
+        background: linear-gradient(270deg, #20272b 0%, #20272b 10%, rgba(255, 255, 255, 0) 100%)  !important;
         right: 0;   
     }
 
     .marquee-container.horizontal::before {
-        background: #20272b;
-        background: linear-gradient(90deg, #20272b 0%, #20272b 10%, rgba(255, 255, 255, 0) 100%);
+        background: #20272b  !important;
+        background: linear-gradient(90deg, #20272b 0%, #20272b 10%, rgba(255, 255, 255, 0) 100%)  !important;
         left: 0;
     }
 `;
