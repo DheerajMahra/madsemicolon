@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "madsemicolon",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A space in the web for front end stuffs.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -15,17 +15,17 @@
   },
   "dependencies": {
     "gatsby": "^2.23.10",
+    "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-transformer-remark": "^2.8.20",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "prettier": "2.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/DheerajMahra/madsemicolon.git"
   }
 }
