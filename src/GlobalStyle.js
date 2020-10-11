@@ -20,11 +20,12 @@ const GlobalStyle = createGlobalStyle`
     }
     
     body {
+        background-color: #20272b;
         box-sizing: border-box;
         font-weight: 400;
         line-height: 1.7;
         overflow: hidden;
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Segoe UI', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
