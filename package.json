@@ -18,7 +18,9 @@
     "gatsby-source-filesystem": "^2.3.14",
     "gatsby-transformer-remark": "^2.8.20",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.2.0",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
