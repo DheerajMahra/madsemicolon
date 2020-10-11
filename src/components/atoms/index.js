@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 import {
 	compose,
 	layout,
@@ -17,6 +16,17 @@ export const Div = styled('div')(
 
 export const Flex = styled(Div)`
 	display: flex;
+`;
+
+export const Img = styled.img`
+	${border}
+`;
+
+export const Icon = styled('i')`
+	font-size: ${({ theme }) => theme.fontSizes[8]};
+	color: ${({ theme }) => theme.colors.logo};
+	margin-left: ${({ theme }) => theme.space[4]};
+	margin-right: ${({ theme }) => theme.space[4]};
 `;
 
 export const Heading = styled.h1`

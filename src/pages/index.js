@@ -3,22 +3,15 @@ import { ThemeProvider } from 'styled-components';
 /*Global style and theme*/
 import GlobalStyle from '../GlobalStyle';
 import theme from '../theme';
-/*Components*/
-import { Flex } from '../components/atoms';
-import Brand from '../components/molecules/Brand';
+/*Templates*/
+import Landing from '../components/templates/Landing';
 
 function Home() {
 	return (
 		<>
-			<GlobalStyle />	
 			<ThemeProvider theme={theme}>
-				<Flex
-					minHeight="60vh"
-					alignItems="center"
-					justifyContent="center"
-				>
-					<Brand />
-				</Flex>
+				<GlobalStyle />
+				<Landing />
 			</ThemeProvider>
 		</>
 	);

@@ -12,7 +12,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     ::selection {
-        background: none;
+        color: ${({ theme }) => theme.colors.text[0]};
+        background: ${({ theme }) => theme.colors.orange};
     }
 
     html {
@@ -20,14 +21,24 @@ const GlobalStyle = createGlobalStyle`
     }
     
     body {
-        background-color: #20272b;
         box-sizing: border-box;
-        font-weight: 400;
         line-height: 1.7;
-        overflow: hidden;
         font-family: 'Segoe UI', sans-serif;
+        background-color: ${({ theme }) => theme.colors.bg[0]};
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+    }
+
+    .marquee-container.horizontal::after {
+        background: #20272b;
+        background: linear-gradient(270deg, #20272b 0%, #20272b 10%, rgba(255, 255, 255, 0) 100%);
+        right: 0;   
+    }
+
+    .marquee-container.horizontal::before {
+        background: #20272b;
+        background: linear-gradient(90deg, #20272b 0%, #20272b 10%, rgba(255, 255, 255, 0) 100%);
+        left: 0;
     }
 `;
 

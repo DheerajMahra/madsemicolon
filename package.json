@@ -21,6 +21,7 @@
     "gatsby-transformer-remark": "^2.8.20",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-marquee-master": "^1.4.3",
     "styled-components": "^5.2.0",
     "styled-system": "^5.1.5"
   },
